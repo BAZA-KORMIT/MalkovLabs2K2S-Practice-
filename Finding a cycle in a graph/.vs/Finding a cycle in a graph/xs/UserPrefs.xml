@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{EDF7B251-83B2-43EB-811A-5E86282CBA49}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Finding a cycle in a graph/Program.cs">
+    <Files>
+      <File FileName="Finding a cycle in a graph/Program.cs" Line="14" Column="50" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Finding a cycle in a graph" expanded="True">
+            <Node name="Finding a cycle in a graph">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Finding_220a_220cycle_220in_220a_220graph PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+</Properties>

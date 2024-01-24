@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1706.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Finding a cycle in a graph", "Finding a cycle in a graph\Finding a cycle in a graph.csproj", "{EDF7B251-83B2-43EB-811A-5E86282CBA49}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EDF7B251-83B2-43EB-811A-5E86282CBA49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDF7B251-83B2-43EB-811A-5E86282CBA49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDF7B251-83B2-43EB-811A-5E86282CBA49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDF7B251-83B2-43EB-811A-5E86282CBA49}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {12CC9019-C1A2-4521-B8F7-BB0C65AEC8FF}
+	EndGlobalSection
+EndGlobal
