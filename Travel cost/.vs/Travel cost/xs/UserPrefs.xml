@@ -1,20 +1,19 @@
-﻿<Properties StartupConfiguration="{EDF7B251-83B2-43EB-811A-5E86282CBA49}|Default">
-  <MonoDevelop.Ide.ItemProperties.Finding_220a_220cycle_220in_220a_220graph PreferredExecutionTarget="MonoDevelop.Default" />
+﻿<Properties StartupConfiguration="{FA536025-91E6-44F8-906E-4CD5C57F7D8D}|Default">
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Finding a cycle in a graph/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Travel cost/Program.cs">
     <Files>
-      <File FileName="Finding a cycle in a graph/Program.cs" Line="14" Column="50" />
+      <File FileName="Travel cost/Program.cs" Line="63" Column="69" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="Finding a cycle in a graph" expanded="True">
-            <Node name="Finding a cycle in a graph" expanded="True">
+          <Node name="Travel cost" expanded="True">
+            <Node name="Travel cost">
               <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
@@ -22,4 +21,5 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Travel_220cost PreferredExecutionTarget="MonoDevelop.Default" />
 </Properties>
