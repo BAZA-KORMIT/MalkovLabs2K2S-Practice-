@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "uMplsIWlCcEdE7tuCDg5VXGr+kU/xYOHJmnj0V99sstn4aR1Fv4MRuNvjQlMGYwR8zxYbLfy1eItmtZmZOP/KA==",
+  "dgSpecHash": "WqDBzCAm/ePtM57TDILnIZArUIrzuvDZU2HF4hblIgT/wSqXhprCDk1GfwsLFD47TpjIFaaRarD7N3UWkxp4dw==",
   "success": true,
-  "projectFilePath": "/Users/vladislavkirillov/Desktop/УНИВЕРСИТЕТ/МАЛЬКОВ/MalkovLabs2K2S-Practice-/Finding a cycle in a graph/Finding a cycle in a graph/Finding a cycle in a graph.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "A:\\Programming\\TSTU\\Malkov A. A\\2nd year\\MalkovLabs2K2S-Practice-\\Finding a cycle in a graph\\Finding a cycle in a graph\\Finding a cycle in a graph.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\vlad2\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.26\\microsoft.windowsdesktop.app.ref.6.0.26.nupkg.sha512",
+    "C:\\Users\\vlad2\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.26\\microsoft.netcore.app.ref.6.0.26.nupkg.sha512",
+    "C:\\Users\\vlad2\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.26\\microsoft.aspnetcore.app.ref.6.0.26.nupkg.sha512",
+    "C:\\Users\\vlad2\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.26\\microsoft.netcore.app.host.win-x64.6.0.26.nupkg.sha512"
+  ],
   "logs": []
 }

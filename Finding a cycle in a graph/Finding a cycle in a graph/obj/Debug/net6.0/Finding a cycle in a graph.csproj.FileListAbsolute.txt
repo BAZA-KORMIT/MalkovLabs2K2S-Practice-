@@ -13,3 +13,18 @@
 /Users/vladislavkirillov/Desktop/УНИВЕРСИТЕТ/МАЛЬКОВ/MalkovLabs2K2S-Practice-/Finding a cycle in a graph/Finding a cycle in a graph/obj/Debug/net6.0/Finding a cycle in a graph.pdb
 /Users/vladislavkirillov/Desktop/УНИВЕРСИТЕТ/МАЛЬКОВ/MalkovLabs2K2S-Practice-/Finding a cycle in a graph/Finding a cycle in a graph/obj/Debug/net6.0/Finding a cycle in a graph.genruntimeconfig.cache
 /Users/vladislavkirillov/Desktop/УНИВЕРСИТЕТ/МАЛЬКОВ/MalkovLabs2K2S-Practice-/Finding a cycle in a graph/Finding a cycle in a graph/obj/Debug/net6.0/ref/Finding a cycle in a graph.dll
+A:\Programming\TSTU\Malkov A. A\2nd year\MalkovLabs2K2S-Practice-\Finding a cycle in a graph\Finding a cycle in a graph\bin\Debug\net6.0\Finding a cycle in a graph.exe
+A:\Programming\TSTU\Malkov A. A\2nd year\MalkovLabs2K2S-Practice-\Finding a cycle in a graph\Finding a cycle in a graph\bin\Debug\net6.0\Finding a cycle in a graph.deps.json
+A:\Programming\TSTU\Malkov A. A\2nd year\MalkovLabs2K2S-Practice-\Finding a cycle in a graph\Finding a cycle in a graph\bin\Debug\net6.0\Finding a cycle in a graph.runtimeconfig.json
+A:\Programming\TSTU\Malkov A. A\2nd year\MalkovLabs2K2S-Practice-\Finding a cycle in a graph\Finding a cycle in a graph\bin\Debug\net6.0\Finding a cycle in a graph.dll
+A:\Programming\TSTU\Malkov A. A\2nd year\MalkovLabs2K2S-Practice-\Finding a cycle in a graph\Finding a cycle in a graph\bin\Debug\net6.0\Finding a cycle in a graph.pdb
+A:\Programming\TSTU\Malkov A. A\2nd year\MalkovLabs2K2S-Practice-\Finding a cycle in a graph\Finding a cycle in a graph\obj\Debug\net6.0\Finding a cycle in a graph.GeneratedMSBuildEditorConfig.editorconfig
+A:\Programming\TSTU\Malkov A. A\2nd year\MalkovLabs2K2S-Practice-\Finding a cycle in a graph\Finding a cycle in a graph\obj\Debug\net6.0\Finding a cycle in a graph.AssemblyInfoInputs.cache
+A:\Programming\TSTU\Malkov A. A\2nd year\MalkovLabs2K2S-Practice-\Finding a cycle in a graph\Finding a cycle in a graph\obj\Debug\net6.0\Finding a cycle in a graph.AssemblyInfo.cs
+A:\Programming\TSTU\Malkov A. A\2nd year\MalkovLabs2K2S-Practice-\Finding a cycle in a graph\Finding a cycle in a graph\obj\Debug\net6.0\Finding a cycle in a graph.csproj.CoreCompileInputs.cache
+A:\Programming\TSTU\Malkov A. A\2nd year\MalkovLabs2K2S-Practice-\Finding a cycle in a graph\Finding a cycle in a graph\obj\Debug\net6.0\Finding a cycle in a graph.sourcelink.json
+A:\Programming\TSTU\Malkov A. A\2nd year\MalkovLabs2K2S-Practice-\Finding a cycle in a graph\Finding a cycle in a graph\obj\Debug\net6.0\Finding a cycle in a graph.dll
+A:\Programming\TSTU\Malkov A. A\2nd year\MalkovLabs2K2S-Practice-\Finding a cycle in a graph\Finding a cycle in a graph\obj\Debug\net6.0\refint\Finding a cycle in a graph.dll
+A:\Programming\TSTU\Malkov A. A\2nd year\MalkovLabs2K2S-Practice-\Finding a cycle in a graph\Finding a cycle in a graph\obj\Debug\net6.0\Finding a cycle in a graph.pdb
+A:\Programming\TSTU\Malkov A. A\2nd year\MalkovLabs2K2S-Practice-\Finding a cycle in a graph\Finding a cycle in a graph\obj\Debug\net6.0\Finding a cycle in a graph.genruntimeconfig.cache
+A:\Programming\TSTU\Malkov A. A\2nd year\MalkovLabs2K2S-Practice-\Finding a cycle in a graph\Finding a cycle in a graph\obj\Debug\net6.0\ref\Finding a cycle in a graph.dll
