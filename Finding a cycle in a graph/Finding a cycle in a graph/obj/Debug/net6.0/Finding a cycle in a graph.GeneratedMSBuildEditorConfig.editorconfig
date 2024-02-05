@@ -8,6 +8,10 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Finding_a_cycle_in_a_graph
+<<<<<<< HEAD
 build_property.ProjectDir = D:\Pract\MalkovLabs2K2S-Practice-\Finding a cycle in a graph\Finding a cycle in a graph\
+=======
+build_property.ProjectDir = A:\Programming\TSTU\Malkov A. A\2nd year\MalkovLabs2K2S-Practice-\Finding a cycle in a graph\Finding a cycle in a graph\
+>>>>>>> b1e3b6b119eb8b2c7097476f78e0f67825778028
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
