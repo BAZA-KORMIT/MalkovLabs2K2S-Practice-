@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PracticeMaze")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+49363a6a4442a77369b7aafd79d130f425bacc91")]
 [assembly: System.Reflection.AssemblyProductAttribute("PracticeMaze")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PracticeMaze")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

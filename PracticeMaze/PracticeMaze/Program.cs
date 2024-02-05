@@ -22,19 +22,43 @@ class Maze
 
     private bool DFS(int row, int col)
     {
+        List<string> list= new List<string>();
         if (row < 0 || row >= rows || col < 0 || col >= cols) 
             return false;
         if (maze[row, col] == 0) 
             return false;
         if (visited[row, col]) 
             return false;
-        if (row == rows - 1 && col == cols - 1) 
+        if (row == rows - 1 && col == cols - 1)
+        {
+            Console.WriteLine("{0},{1}", row, col);
             return true;
-        visited[row, col] = true; 
-        if (DFS(row + 1, col)) return true; 
-        if (DFS(row - 1, col)) return true; 
-        if (DFS(row, col + 1)) return true; 
-        if (DFS(row, col - 1)) return true; 
+        }
+        visited[row, col] = true;
+        if (DFS(row + 1, col))
+        {
+            list.Add($"{row},{col}");
+            Console.WriteLine("{0},{1}", row, col);
+            return true;
+        }
+        if (DFS(row - 1, col)) 
+        {
+            list.Add($"{row},{col}");
+            Console.WriteLine("{0},{1}", row, col);
+            return true;
+        }
+        if (DFS(row, col + 1)) 
+        {
+            list.Add($"{row},{col}");
+            Console.WriteLine("{0},{1}", row, col);
+            return true;
+        }
+        if (DFS(row, col - 1))
+        {
+            list.Add($"{row},{col}");
+            Console.WriteLine("{0},{1}", row, col);
+            return true;
+        }
         return false; 
     }
 }

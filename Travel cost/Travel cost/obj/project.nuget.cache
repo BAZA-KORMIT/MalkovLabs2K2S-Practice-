@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "udRXJz/qOo6gENYPOvG04yU6qXSeP1kYa5EQUG+0DPlmPmeiWuhXie6QfFz4+OnwpUFOZzMf/40cBEOnvUkahA==",
+  "dgSpecHash": "9pkjL4hPGdzdqj7eIioo4bDnoH+m/GXIJZaPiZe451uQ2pWtHv5E8+VaYF/lDHz+cwiAPeVYjNTauqIIEHdJXQ==",
   "success": true,
-  "projectFilePath": "/Users/vladislavkirillov/Desktop/УНИВЕРСИТЕТ/МАЛЬКОВ/MalkovLabs2K2S-Practice-/Travel cost/Travel cost/Travel cost.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "D:\\Pract\\MalkovLabs2K2S-Practice-\\Travel cost\\Travel cost\\Travel cost.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Ник\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.25\\microsoft.windowsdesktop.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\Ник\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.25\\microsoft.netcore.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\Ник\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.25\\microsoft.aspnetcore.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\Ник\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.25\\microsoft.netcore.app.host.win-x64.6.0.25.nupkg.sha512"
+  ],
   "logs": []
 }

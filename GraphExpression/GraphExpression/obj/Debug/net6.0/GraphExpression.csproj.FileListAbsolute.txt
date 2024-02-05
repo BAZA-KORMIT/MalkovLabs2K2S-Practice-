@@ -1,0 +1,15 @@
+D:\Pract\MalkovLabs2K2S-Practice-\GraphExpression\GraphExpression\bin\Debug\net6.0\GraphExpression.exe
+D:\Pract\MalkovLabs2K2S-Practice-\GraphExpression\GraphExpression\bin\Debug\net6.0\GraphExpression.deps.json
+D:\Pract\MalkovLabs2K2S-Practice-\GraphExpression\GraphExpression\bin\Debug\net6.0\GraphExpression.runtimeconfig.json
+D:\Pract\MalkovLabs2K2S-Practice-\GraphExpression\GraphExpression\bin\Debug\net6.0\GraphExpression.dll
+D:\Pract\MalkovLabs2K2S-Practice-\GraphExpression\GraphExpression\bin\Debug\net6.0\GraphExpression.pdb
+D:\Pract\MalkovLabs2K2S-Practice-\GraphExpression\GraphExpression\obj\Debug\net6.0\GraphExpression.GeneratedMSBuildEditorConfig.editorconfig
+D:\Pract\MalkovLabs2K2S-Practice-\GraphExpression\GraphExpression\obj\Debug\net6.0\GraphExpression.AssemblyInfoInputs.cache
+D:\Pract\MalkovLabs2K2S-Practice-\GraphExpression\GraphExpression\obj\Debug\net6.0\GraphExpression.AssemblyInfo.cs
+D:\Pract\MalkovLabs2K2S-Practice-\GraphExpression\GraphExpression\obj\Debug\net6.0\GraphExpression.csproj.CoreCompileInputs.cache
+D:\Pract\MalkovLabs2K2S-Practice-\GraphExpression\GraphExpression\obj\Debug\net6.0\GraphExpression.sourcelink.json
+D:\Pract\MalkovLabs2K2S-Practice-\GraphExpression\GraphExpression\obj\Debug\net6.0\GraphExpression.dll
+D:\Pract\MalkovLabs2K2S-Practice-\GraphExpression\GraphExpression\obj\Debug\net6.0\refint\GraphExpression.dll
+D:\Pract\MalkovLabs2K2S-Practice-\GraphExpression\GraphExpression\obj\Debug\net6.0\GraphExpression.pdb
+D:\Pract\MalkovLabs2K2S-Practice-\GraphExpression\GraphExpression\obj\Debug\net6.0\GraphExpression.genruntimeconfig.cache
+D:\Pract\MalkovLabs2K2S-Practice-\GraphExpression\GraphExpression\obj\Debug\net6.0\ref\GraphExpression.dll
