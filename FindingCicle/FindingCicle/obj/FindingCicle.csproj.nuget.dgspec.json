@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "A:\\Programming\\TSTU\\Malkov A. A\\2nd year\\MalkovLabs2K2S\\FindingCicle\\FindingCicle\\FindingCicle.csproj": {}
+    "D:\\Pract\\MalkovLabs2K2S-Practice-\\FindingCicle\\FindingCicle\\FindingCicle.csproj": {}
   },
   "projects": {
-    "A:\\Programming\\TSTU\\Malkov A. A\\2nd year\\MalkovLabs2K2S\\FindingCicle\\FindingCicle\\FindingCicle.csproj": {
+    "D:\\Pract\\MalkovLabs2K2S-Practice-\\FindingCicle\\FindingCicle\\FindingCicle.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "A:\\Programming\\TSTU\\Malkov A. A\\2nd year\\MalkovLabs2K2S\\FindingCicle\\FindingCicle\\FindingCicle.csproj",
+        "projectUniqueName": "D:\\Pract\\MalkovLabs2K2S-Practice-\\FindingCicle\\FindingCicle\\FindingCicle.csproj",
         "projectName": "FindingCicle",
-        "projectPath": "A:\\Programming\\TSTU\\Malkov A. A\\2nd year\\MalkovLabs2K2S\\FindingCicle\\FindingCicle\\FindingCicle.csproj",
-        "packagesPath": "C:\\Users\\vlad2\\.nuget\\packages\\",
-        "outputPath": "A:\\Programming\\TSTU\\Malkov A. A\\2nd year\\MalkovLabs2K2S\\FindingCicle\\FindingCicle\\obj\\",
+        "projectPath": "D:\\Pract\\MalkovLabs2K2S-Practice-\\FindingCicle\\FindingCicle\\FindingCicle.csproj",
+        "packagesPath": "C:\\Users\\Ник\\.nuget\\packages\\",
+        "outputPath": "D:\\Pract\\MalkovLabs2K2S-Practice-\\FindingCicle\\FindingCicle\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\vlad2\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Ник\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -59,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

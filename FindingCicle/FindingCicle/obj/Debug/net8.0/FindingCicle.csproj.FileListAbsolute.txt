@@ -13,3 +13,18 @@ A:\Programming\TSTU\Malkov A. A\2nd year\MalkovLabs2K2S\FindingCicle\FindingCicl
 A:\Programming\TSTU\Malkov A. A\2nd year\MalkovLabs2K2S\FindingCicle\FindingCicle\obj\Debug\net8.0\FindingCicle.pdb
 A:\Programming\TSTU\Malkov A. A\2nd year\MalkovLabs2K2S\FindingCicle\FindingCicle\obj\Debug\net8.0\FindingCicle.genruntimeconfig.cache
 A:\Programming\TSTU\Malkov A. A\2nd year\MalkovLabs2K2S\FindingCicle\FindingCicle\obj\Debug\net8.0\ref\FindingCicle.dll
+D:\Pract\MalkovLabs2K2S-Practice-\FindingCicle\FindingCicle\bin\Debug\net8.0\FindingCicle.exe
+D:\Pract\MalkovLabs2K2S-Practice-\FindingCicle\FindingCicle\bin\Debug\net8.0\FindingCicle.deps.json
+D:\Pract\MalkovLabs2K2S-Practice-\FindingCicle\FindingCicle\bin\Debug\net8.0\FindingCicle.runtimeconfig.json
+D:\Pract\MalkovLabs2K2S-Practice-\FindingCicle\FindingCicle\bin\Debug\net8.0\FindingCicle.dll
+D:\Pract\MalkovLabs2K2S-Practice-\FindingCicle\FindingCicle\bin\Debug\net8.0\FindingCicle.pdb
+D:\Pract\MalkovLabs2K2S-Practice-\FindingCicle\FindingCicle\obj\Debug\net8.0\FindingCicle.GeneratedMSBuildEditorConfig.editorconfig
+D:\Pract\MalkovLabs2K2S-Practice-\FindingCicle\FindingCicle\obj\Debug\net8.0\FindingCicle.AssemblyInfoInputs.cache
+D:\Pract\MalkovLabs2K2S-Practice-\FindingCicle\FindingCicle\obj\Debug\net8.0\FindingCicle.AssemblyInfo.cs
+D:\Pract\MalkovLabs2K2S-Practice-\FindingCicle\FindingCicle\obj\Debug\net8.0\FindingCicle.csproj.CoreCompileInputs.cache
+D:\Pract\MalkovLabs2K2S-Practice-\FindingCicle\FindingCicle\obj\Debug\net8.0\FindingCicle.sourcelink.json
+D:\Pract\MalkovLabs2K2S-Practice-\FindingCicle\FindingCicle\obj\Debug\net8.0\FindingCicle.dll
+D:\Pract\MalkovLabs2K2S-Practice-\FindingCicle\FindingCicle\obj\Debug\net8.0\refint\FindingCicle.dll
+D:\Pract\MalkovLabs2K2S-Practice-\FindingCicle\FindingCicle\obj\Debug\net8.0\FindingCicle.pdb
+D:\Pract\MalkovLabs2K2S-Practice-\FindingCicle\FindingCicle\obj\Debug\net8.0\FindingCicle.genruntimeconfig.cache
+D:\Pract\MalkovLabs2K2S-Practice-\FindingCicle\FindingCicle\obj\Debug\net8.0\ref\FindingCicle.dll

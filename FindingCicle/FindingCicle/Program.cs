@@ -51,6 +51,8 @@ namespace FCG
                 for (int i = 0; i < n; i++)
                     if (graph[v, i] != 0)
                     {
+                       if (graph[v, i] == graph[i, v])
+                            continue;
                         if (used[i] == Color.WHITE)
                             return DFS(i, used);
                         if (used[i] == Color.GRAY)
