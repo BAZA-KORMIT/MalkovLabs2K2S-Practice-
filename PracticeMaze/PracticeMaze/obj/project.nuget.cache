@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "xJC4iDHKN1VbmFRzpPTniOsx3enyVB1Cewav8JNAo/mle4q5RP1Q328FnqizjvB7Ubpu9rNKUM1O1SKHinbk2A==",
+  "dgSpecHash": "/ftcgP0jHbFocNYFGTf1ME3ObPtTtdzxaGe4qQvDX/4Vig63xJqvEtuFjlqcKpPPv8uBqqemBYFdgl1g1qF9HA==",
   "success": true,
-  "projectFilePath": "D:\\Pract\\MalkovLabs2K2S-Practice-\\PracticeMaze\\PracticeMaze\\PracticeMaze.csproj",
+  "projectFilePath": "A:\\Programming\\TSTU\\Malkov A. A\\2nd year\\MalkovLabs2K2S-Practice-\\PracticeMaze\\PracticeMaze\\PracticeMaze.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Ник\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.25\\microsoft.windowsdesktop.app.ref.6.0.25.nupkg.sha512",
-    "C:\\Users\\Ник\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.25\\microsoft.netcore.app.ref.6.0.25.nupkg.sha512",
-    "C:\\Users\\Ник\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.25\\microsoft.aspnetcore.app.ref.6.0.25.nupkg.sha512",
-    "C:\\Users\\Ник\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.25\\microsoft.netcore.app.host.win-x64.6.0.25.nupkg.sha512"
+    "C:\\Users\\vlad2\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.26\\microsoft.windowsdesktop.app.ref.6.0.26.nupkg.sha512",
+    "C:\\Users\\vlad2\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.26\\microsoft.netcore.app.ref.6.0.26.nupkg.sha512",
+    "C:\\Users\\vlad2\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.26\\microsoft.aspnetcore.app.ref.6.0.26.nupkg.sha512",
+    "C:\\Users\\vlad2\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.26\\microsoft.netcore.app.host.win-x64.6.0.26.nupkg.sha512"
   ],
   "logs": []
 }

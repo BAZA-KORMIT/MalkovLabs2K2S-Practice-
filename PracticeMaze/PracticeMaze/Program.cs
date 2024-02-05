@@ -23,6 +23,7 @@ class Maze
     private bool DFS(int row, int col)
     {
         List<string> list= new List<string>();
+
         if (row < 0 || row >= rows || col < 0 || col >= cols) 
             return false;
         if (maze[row, col] == 0) 
@@ -34,7 +35,9 @@ class Maze
             Console.WriteLine("{0},{1}", row, col);
             return true;
         }
+
         visited[row, col] = true;
+
         if (DFS(row + 1, col))
         {
             list.Add($"{row},{col}");

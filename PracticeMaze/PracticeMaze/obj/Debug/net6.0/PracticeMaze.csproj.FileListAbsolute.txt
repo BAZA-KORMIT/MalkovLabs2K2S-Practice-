@@ -43,3 +43,18 @@ D:\Pract\MalkovLabs2K2S-Practice-\PracticeMaze\PracticeMaze\obj\Debug\net6.0\ref
 D:\Pract\MalkovLabs2K2S-Practice-\PracticeMaze\PracticeMaze\obj\Debug\net6.0\PracticeMaze.pdb
 D:\Pract\MalkovLabs2K2S-Practice-\PracticeMaze\PracticeMaze\obj\Debug\net6.0\PracticeMaze.genruntimeconfig.cache
 D:\Pract\MalkovLabs2K2S-Practice-\PracticeMaze\PracticeMaze\obj\Debug\net6.0\ref\PracticeMaze.dll
+A:\Programming\TSTU\Malkov A. A\2nd year\MalkovLabs2K2S-Practice-\PracticeMaze\PracticeMaze\bin\Debug\net6.0\PracticeMaze.exe
+A:\Programming\TSTU\Malkov A. A\2nd year\MalkovLabs2K2S-Practice-\PracticeMaze\PracticeMaze\bin\Debug\net6.0\PracticeMaze.deps.json
+A:\Programming\TSTU\Malkov A. A\2nd year\MalkovLabs2K2S-Practice-\PracticeMaze\PracticeMaze\bin\Debug\net6.0\PracticeMaze.runtimeconfig.json
+A:\Programming\TSTU\Malkov A. A\2nd year\MalkovLabs2K2S-Practice-\PracticeMaze\PracticeMaze\bin\Debug\net6.0\PracticeMaze.dll
+A:\Programming\TSTU\Malkov A. A\2nd year\MalkovLabs2K2S-Practice-\PracticeMaze\PracticeMaze\bin\Debug\net6.0\PracticeMaze.pdb
+A:\Programming\TSTU\Malkov A. A\2nd year\MalkovLabs2K2S-Practice-\PracticeMaze\PracticeMaze\obj\Debug\net6.0\PracticeMaze.GeneratedMSBuildEditorConfig.editorconfig
+A:\Programming\TSTU\Malkov A. A\2nd year\MalkovLabs2K2S-Practice-\PracticeMaze\PracticeMaze\obj\Debug\net6.0\PracticeMaze.AssemblyInfoInputs.cache
+A:\Programming\TSTU\Malkov A. A\2nd year\MalkovLabs2K2S-Practice-\PracticeMaze\PracticeMaze\obj\Debug\net6.0\PracticeMaze.AssemblyInfo.cs
+A:\Programming\TSTU\Malkov A. A\2nd year\MalkovLabs2K2S-Practice-\PracticeMaze\PracticeMaze\obj\Debug\net6.0\PracticeMaze.csproj.CoreCompileInputs.cache
+A:\Programming\TSTU\Malkov A. A\2nd year\MalkovLabs2K2S-Practice-\PracticeMaze\PracticeMaze\obj\Debug\net6.0\PracticeMaze.sourcelink.json
+A:\Programming\TSTU\Malkov A. A\2nd year\MalkovLabs2K2S-Practice-\PracticeMaze\PracticeMaze\obj\Debug\net6.0\PracticeMaze.dll
+A:\Programming\TSTU\Malkov A. A\2nd year\MalkovLabs2K2S-Practice-\PracticeMaze\PracticeMaze\obj\Debug\net6.0\refint\PracticeMaze.dll
+A:\Programming\TSTU\Malkov A. A\2nd year\MalkovLabs2K2S-Practice-\PracticeMaze\PracticeMaze\obj\Debug\net6.0\PracticeMaze.pdb
+A:\Programming\TSTU\Malkov A. A\2nd year\MalkovLabs2K2S-Practice-\PracticeMaze\PracticeMaze\obj\Debug\net6.0\PracticeMaze.genruntimeconfig.cache
+A:\Programming\TSTU\Malkov A. A\2nd year\MalkovLabs2K2S-Practice-\PracticeMaze\PracticeMaze\obj\Debug\net6.0\ref\PracticeMaze.dll
