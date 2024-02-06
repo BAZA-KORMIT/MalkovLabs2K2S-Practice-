@@ -7,9 +7,9 @@ namespace FCG
         public enum Color { WHITE, GRAY, BLACK }
 
         public static int[,] graph = {
-               { 0, 1, 0},
+               { 0, 1, 1},
                { 1, 0, 1},
-               {0, 1, 0}
+               {1, 1, 0}
         };
         public static int n = graph.GetLength(0);
         public static Color[] used = new Color[n];

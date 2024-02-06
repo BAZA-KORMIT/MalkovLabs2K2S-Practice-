@@ -1,0 +1,15 @@
+A:\Programming\TSTU\Malkov A. A\2nd year\MalkovLabs2K2S-Practice-\TravelCost 2.0\TravelCost 2.0\obj\Debug\net8.0\TravelCost 2.0.GeneratedMSBuildEditorConfig.editorconfig
+A:\Programming\TSTU\Malkov A. A\2nd year\MalkovLabs2K2S-Practice-\TravelCost 2.0\TravelCost 2.0\obj\Debug\net8.0\TravelCost 2.0.AssemblyInfoInputs.cache
+A:\Programming\TSTU\Malkov A. A\2nd year\MalkovLabs2K2S-Practice-\TravelCost 2.0\TravelCost 2.0\obj\Debug\net8.0\TravelCost 2.0.AssemblyInfo.cs
+A:\Programming\TSTU\Malkov A. A\2nd year\MalkovLabs2K2S-Practice-\TravelCost 2.0\TravelCost 2.0\obj\Debug\net8.0\TravelCost 2.0.csproj.CoreCompileInputs.cache
+A:\Programming\TSTU\Malkov A. A\2nd year\MalkovLabs2K2S-Practice-\TravelCost 2.0\TravelCost 2.0\obj\Debug\net8.0\TravelCost 2.0.sourcelink.json
+A:\Programming\TSTU\Malkov A. A\2nd year\MalkovLabs2K2S-Practice-\TravelCost 2.0\TravelCost 2.0\bin\Debug\net8.0\TravelCost 2.0.exe
+A:\Programming\TSTU\Malkov A. A\2nd year\MalkovLabs2K2S-Practice-\TravelCost 2.0\TravelCost 2.0\bin\Debug\net8.0\TravelCost 2.0.deps.json
+A:\Programming\TSTU\Malkov A. A\2nd year\MalkovLabs2K2S-Practice-\TravelCost 2.0\TravelCost 2.0\bin\Debug\net8.0\TravelCost 2.0.runtimeconfig.json
+A:\Programming\TSTU\Malkov A. A\2nd year\MalkovLabs2K2S-Practice-\TravelCost 2.0\TravelCost 2.0\bin\Debug\net8.0\TravelCost 2.0.dll
+A:\Programming\TSTU\Malkov A. A\2nd year\MalkovLabs2K2S-Practice-\TravelCost 2.0\TravelCost 2.0\bin\Debug\net8.0\TravelCost 2.0.pdb
+A:\Programming\TSTU\Malkov A. A\2nd year\MalkovLabs2K2S-Practice-\TravelCost 2.0\TravelCost 2.0\obj\Debug\net8.0\TravelCost 2.0.dll
+A:\Programming\TSTU\Malkov A. A\2nd year\MalkovLabs2K2S-Practice-\TravelCost 2.0\TravelCost 2.0\obj\Debug\net8.0\refint\TravelCost 2.0.dll
+A:\Programming\TSTU\Malkov A. A\2nd year\MalkovLabs2K2S-Practice-\TravelCost 2.0\TravelCost 2.0\obj\Debug\net8.0\TravelCost 2.0.pdb
+A:\Programming\TSTU\Malkov A. A\2nd year\MalkovLabs2K2S-Practice-\TravelCost 2.0\TravelCost 2.0\obj\Debug\net8.0\TravelCost 2.0.genruntimeconfig.cache
+A:\Programming\TSTU\Malkov A. A\2nd year\MalkovLabs2K2S-Practice-\TravelCost 2.0\TravelCost 2.0\obj\Debug\net8.0\ref\TravelCost 2.0.dll
