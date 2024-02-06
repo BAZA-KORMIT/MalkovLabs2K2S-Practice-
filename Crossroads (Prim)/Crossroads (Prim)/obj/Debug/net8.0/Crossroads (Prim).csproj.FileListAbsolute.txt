@@ -1,0 +1,15 @@
+A:\Programming\TSTU\Malkov A. A\2nd year\MalkovLabs2K2S-Practice-\Crossroads (Prim)\Crossroads (Prim)\bin\Debug\net8.0\Crossroads (Prim).exe
+A:\Programming\TSTU\Malkov A. A\2nd year\MalkovLabs2K2S-Practice-\Crossroads (Prim)\Crossroads (Prim)\bin\Debug\net8.0\Crossroads (Prim).deps.json
+A:\Programming\TSTU\Malkov A. A\2nd year\MalkovLabs2K2S-Practice-\Crossroads (Prim)\Crossroads (Prim)\bin\Debug\net8.0\Crossroads (Prim).runtimeconfig.json
+A:\Programming\TSTU\Malkov A. A\2nd year\MalkovLabs2K2S-Practice-\Crossroads (Prim)\Crossroads (Prim)\bin\Debug\net8.0\Crossroads (Prim).dll
+A:\Programming\TSTU\Malkov A. A\2nd year\MalkovLabs2K2S-Practice-\Crossroads (Prim)\Crossroads (Prim)\bin\Debug\net8.0\Crossroads (Prim).pdb
+A:\Programming\TSTU\Malkov A. A\2nd year\MalkovLabs2K2S-Practice-\Crossroads (Prim)\Crossroads (Prim)\obj\Debug\net8.0\Crossroads (Prim).GeneratedMSBuildEditorConfig.editorconfig
+A:\Programming\TSTU\Malkov A. A\2nd year\MalkovLabs2K2S-Practice-\Crossroads (Prim)\Crossroads (Prim)\obj\Debug\net8.0\Crossroads (Prim).AssemblyInfoInputs.cache
+A:\Programming\TSTU\Malkov A. A\2nd year\MalkovLabs2K2S-Practice-\Crossroads (Prim)\Crossroads (Prim)\obj\Debug\net8.0\Crossroads (Prim).AssemblyInfo.cs
+A:\Programming\TSTU\Malkov A. A\2nd year\MalkovLabs2K2S-Practice-\Crossroads (Prim)\Crossroads (Prim)\obj\Debug\net8.0\Crossroads (Prim).csproj.CoreCompileInputs.cache
+A:\Programming\TSTU\Malkov A. A\2nd year\MalkovLabs2K2S-Practice-\Crossroads (Prim)\Crossroads (Prim)\obj\Debug\net8.0\Crossroads (Prim).sourcelink.json
+A:\Programming\TSTU\Malkov A. A\2nd year\MalkovLabs2K2S-Practice-\Crossroads (Prim)\Crossroads (Prim)\obj\Debug\net8.0\Crossroads (Prim).dll
+A:\Programming\TSTU\Malkov A. A\2nd year\MalkovLabs2K2S-Practice-\Crossroads (Prim)\Crossroads (Prim)\obj\Debug\net8.0\refint\Crossroads (Prim).dll
+A:\Programming\TSTU\Malkov A. A\2nd year\MalkovLabs2K2S-Practice-\Crossroads (Prim)\Crossroads (Prim)\obj\Debug\net8.0\Crossroads (Prim).pdb
+A:\Programming\TSTU\Malkov A. A\2nd year\MalkovLabs2K2S-Practice-\Crossroads (Prim)\Crossroads (Prim)\obj\Debug\net8.0\Crossroads (Prim).genruntimeconfig.cache
+A:\Programming\TSTU\Malkov A. A\2nd year\MalkovLabs2K2S-Practice-\Crossroads (Prim)\Crossroads (Prim)\obj\Debug\net8.0\ref\Crossroads (Prim).dll
