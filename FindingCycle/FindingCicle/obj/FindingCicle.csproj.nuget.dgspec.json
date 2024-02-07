@@ -1,31 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "A:\\Programming\\TSTU\\Malkov A. A\\2nd year\\MalkovLabs2K2S-Practice-\\FindingCycle\\FindingCicle\\FindingCicle.csproj": {}
+    "/Users/vladislavkirillov/Desktop/УНИВЕРСИТЕТ/МАЛЬКОВ/MalkovLabs2K2S-Practice-/FindingCycle/FindingCicle/FindingCicle.csproj": {}
   },
   "projects": {
-    "A:\\Programming\\TSTU\\Malkov A. A\\2nd year\\MalkovLabs2K2S-Practice-\\FindingCycle\\FindingCicle\\FindingCicle.csproj": {
+    "/Users/vladislavkirillov/Desktop/УНИВЕРСИТЕТ/МАЛЬКОВ/MalkovLabs2K2S-Practice-/FindingCycle/FindingCicle/FindingCicle.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "A:\\Programming\\TSTU\\Malkov A. A\\2nd year\\MalkovLabs2K2S-Practice-\\FindingCycle\\FindingCicle\\FindingCicle.csproj",
+        "projectUniqueName": "/Users/vladislavkirillov/Desktop/УНИВЕРСИТЕТ/МАЛЬКОВ/MalkovLabs2K2S-Practice-/FindingCycle/FindingCicle/FindingCicle.csproj",
         "projectName": "FindingCicle",
-        "projectPath": "A:\\Programming\\TSTU\\Malkov A. A\\2nd year\\MalkovLabs2K2S-Practice-\\FindingCycle\\FindingCicle\\FindingCicle.csproj",
-        "packagesPath": "C:\\Users\\vlad2\\.nuget\\packages\\",
-        "outputPath": "A:\\Programming\\TSTU\\Malkov A. A\\2nd year\\MalkovLabs2K2S-Practice-\\FindingCycle\\FindingCicle\\obj\\",
+        "projectPath": "/Users/vladislavkirillov/Desktop/УНИВЕРСИТЕТ/МАЛЬКОВ/MalkovLabs2K2S-Practice-/FindingCycle/FindingCicle/FindingCicle.csproj",
+        "packagesPath": "/Users/vladislavkirillov/.nuget/packages/",
+        "outputPath": "/Users/vladislavkirillov/Desktop/УНИВЕРСИТЕТ/МАЛЬКОВ/MalkovLabs2K2S-Practice-/FindingCycle/FindingCicle/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\vlad2\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/vladislavkirillov/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "/usr/local/share/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -59,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{13889F85-8F6F-47DE-A275-6E39E4FA2784}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="FindingCicle/Program.cs">
+    <Files>
+      <File FileName="FindingCicle/Program.cs" Line="45" Column="25" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="FindingCicle">
+            <Node name="FindingCicle">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.FindingCicle PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

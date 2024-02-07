@@ -9,13 +9,13 @@ namespace Crossroads
         static void Main()
         {
             int crossroads = 5;
-            int[] fare_amount = [9, 2, 6, 7, 9];
+            int[] fare_amount = { 9, 4, 5, 6, 7 };
             int[,] graph = new int[,] {
-                {0, 1, 1, 0, 0},
-                {1, 0, 1, 1, 0},
-                {1, 1, 0, 1, 1},
-                {0, 1, 1, 0, 1},
-                {0, 0, 1, 1, 0}
+                {0, 1, 0, 0, 0},
+                {0, 0, 0, 1, 0},
+                {1, 0, 0, 0, 0},
+                {0, 0, 1, 0, 1},
+                {0, 0, 1, 0, 0}
             };
 
             int cost = PrimAlg(graph, fare_amount, crossroads);

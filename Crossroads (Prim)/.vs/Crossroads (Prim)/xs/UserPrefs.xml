@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{725A4A8A-26F4-40E9-813A-293E944489F1}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Crossroads (Prim)/Program.cs">
+    <Files>
+      <File FileName="Crossroads (Prim)/Program.cs" Line="12" Column="48" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Crossroads (Prim)">
+            <Node name="Crossroads (Prim)">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Crossroads_220_228Prim_229 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
