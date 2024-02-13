@@ -1,4 +1,6 @@
-﻿namespace P
+﻿using System;
+
+namespace P
 {
     class Prog
     {
@@ -7,29 +9,29 @@
             return (n < 2) ? n : FibonachiREC(n - 1) + FibonachiREC(n - 2);
         }
         public static int FibonachiSTACK(int n)
-        {      
-                Stack<int> stack = new Stack<int>();
-                stack.Push(0);
-                stack.Push(1);
-                for (int i = 1; i < n; i++)
-                {
-                    int first = stack.Pop();
-                    int second = stack.Pop();
-                    stack.Push(first);
-                    stack.Push(first + second);
-                }
-                return stack.Pop();
+        {
+            Stack<int> stack = new Stack<int>();
+            stack.Push(0);
+            stack.Push(1);
+            for (int i = 1; i < n; i++)
+            {
+                int first = stack.Pop();
+                int second = stack.Pop();
+                stack.Push(first);
+                stack.Push(first + second);
+            }
+            return stack.Pop();
         }
 
         public static int sumOfArrayREC(int[] a, int n)
         {
-            return (n==0)? a[n] : a[n]+sumOfArrayREC(a, n - 1);
+            return (n == 0) ? a[n] : a[n] + sumOfArrayREC(a, n - 1);
         }
 
-        public static int sumOfArraySTACK(int[] a,int n)
+        public static int sumOfArraySTACK(int[] a, int n)
         {
-            Stack<int> stack =new Stack<int>();
-            for(int i = 0;i < n; i++)
+            Stack<int> stack = new Stack<int>();
+            for (int i = 0; i < n; i++)
             {
                 if (i == 0) stack.Push(a[i]);
                 else
@@ -70,9 +72,56 @@
         {
             return QuickSort(array, 0, array.Length - 1);
         }
-        static void QuicksortSTACK(int[] array)
-        {
 
+        public static void QuickSortSTACK(int[] arr, int left, int right)
+        {
+            if (left >= right)
+            {
+                return;
+            }
+
+            Stack<int> stack = new Stack<int>();
+            stack.Push(left);
+            stack.Push(right);
+
+            while (stack.Count > 0)
+            {
+                right = stack.Pop();
+                left = stack.Pop();
+
+                int pivotIndex = PartitionSTACK(arr, left, right);
+
+                if (pivotIndex - 1 > left)
+                {
+                    stack.Push(left);
+                    stack.Push(pivotIndex - 1);
+                }
+
+                if (pivotIndex + 1 < right)
+                {
+                    stack.Push(pivotIndex + 1);
+                    stack.Push(right);
+                }
+            }
+        }
+
+        private static int PartitionSTACK(int[] arr, int left, int right)
+        {
+            int pivot = arr[right];
+            int i = left - 1;
+
+            for (int j = left; j < right; j++)
+            {
+                if (arr[j] < pivot)
+                {
+                    i++;
+                    (arr[i], arr[j]) = (arr[j], arr[i]);
+                }
+            }
+
+            (arr[i + 1], arr[right]) = (arr[right], arr[i + 1]);
+
+            return i + 1;
         }
         static void Main()
         {
@@ -81,19 +130,30 @@
             int[] a = { 1, 2, 3, 4, 5 };
             Console.WriteLine(sumOfArrayREC(a, a.Length - 1));
             Console.WriteLine(sumOfArraySTACK(a, a.Length));
-            int[] b= { 5,4,65676,34,12,67,9,1,2};
+            int[] b = { 5, 4, 65676, 34, 12, 67, 9, 1, 2 };
             foreach (int i in b)
             {
                 Console.Write(i + " ");
             }
             Console.WriteLine();
             QuickSortREC(b);
-            foreach(int i in b)
+            foreach (int i in b)
             {
-                Console.Write(i+" ");
+                Console.Write(i + " ");
+            }
+            Console.WriteLine();
+            int[] cb = { 5, 4, 65676, 34, 12, 67, 9, 1, 2 };
+            foreach (int i in cb)
+            {
+                Console.Write(i + " ");
+            }
+            Console.WriteLine();
+            QuickSortSTACK(cb, 0, cb.Length - 1);
+            foreach (int i in cb)
+            {
+                Console.Write(i + " ");
             }
 
         }
-        
     }
 }
