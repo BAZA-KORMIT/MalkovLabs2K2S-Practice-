@@ -8,8 +8,8 @@ namespace FCG
 
         public static int[,] graph = {
                { 0, 1, 1},
-               { 1, 0, 0},
-               {1, 0, 0}
+               { 0, 0, 1},
+               {0, 1, 0}
         };
         public static int n = graph.GetLength(0);
         public static Color[] used = new Color[n];
@@ -42,7 +42,7 @@ namespace FCG
                         if (used[i] == Color.GRAY)
                             return true;
                     }
-                used[v] = Color.BLACK;
+                used[v]= Color.BLACK;
                 return false;
             }
             else
@@ -53,7 +53,7 @@ namespace FCG
                     {
                         if (used[i] == Color.WHITE)
                             return DFS(i, used);
-                        if (used[i] == Color.GRAY && graph[i, v] == graph[v, i])
+                        if (used[i] == Color.GRAY && graph[i, v] == graph[v, i] && used[i] == used[v-1])
                             continue;
                         if (used[i] == Color.GRAY)
                             return true;  
