@@ -9,7 +9,7 @@ namespace FCG
         public static int[,] graph = {
                { 0, 1, 1},
                { 0, 0, 1},
-               {0, 1, 0}
+               {1, 1, 0}
         };
         public static int n = graph.GetLength(0);
         public static Color[] used = new Color[n];
@@ -22,7 +22,7 @@ namespace FCG
             {
                 if (DFS(i, used))
                 {
-                    Console.WriteLine("В графе есть цикл.");
+                    Console.WriteLine($"Цикл найден в вершине: {i+1}");
                     return;
                 }
             }
@@ -53,12 +53,15 @@ namespace FCG
                     {
                         if (used[i] == Color.WHITE)
                             return DFS(i, used);
-                        if (used[i] == Color.GRAY && graph[i, v] == graph[v, i] && used[i] == used[v-1])
+                        if (used[i] == Color.GRAY && graph[i, v] == graph[v, i] && used[i] == used[v - 1])
+                        {
                             continue;
+                        }
                         if (used[i] == Color.GRAY)
                             return true;  
                     }
                 used[v] = Color.BLACK;
+                
                 return false;
             }
         }
