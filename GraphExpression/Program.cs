@@ -1,69 +1,115 @@
-﻿namespace PROG
+﻿using System;
+using System.Collections;
+using System.Collections.Generic;
+namespace PROG
 {
-    class Node
+    public class Solution
     {
-        public string Value { get; set; }
-        public Node Left { get; set; }
-        public Node Right { get; set; }
+        Dictionary<char, int> prio = new Dictionary<char, int>();
 
-        public Node(string value)
+        public Node expTree(string s)
         {
-            Value = value;
-            Left = null;
-            Right = null;
-        }
-    }
+            prio.Add('(', 1);
+            prio.Add('+', 2);
+            prio.Add('-', 2);
+            prio.Add('*', 3);
+            prio.Add('/', 3);
 
-    class GraphExpression
-    {
-        public Node Root { get; set; }
-
-        public GraphExpression(string expression)
-        {
-            Root = ParseExpression(expression);
-        }
-
-        private Node ParseExpression(string expression)
-        {
-            string[] tokens = expression.Split(' ');
+            Stack<char> ops = new Stack<char>();
             Stack<Node> stack = new Stack<Node>();
 
-            foreach (string token in tokens)
+            for (int i = 0; i < s.Length; i++)
             {
-                if (token == "+" || token == "*" || token == "/")
+                char ch = s[i];
+                if (ch == '(')
                 {
-                    Node newNode = new Node(token);
-                    newNode.Right = stack.Pop();
-                    newNode.Left = stack.Pop();
-                    stack.Push(newNode);
+                    ops.Push(ch);
+                }
+                else if (char.IsDigit(ch) || char.IsLetter(ch))
+                {
+                    stack.Push(new Node(ch));
+                }
+                else if (ch == ')')
+                {
+                    while (ops.Peek() != '(')
+                    {
+                        Combine(ops, stack);
+                    }
+                    ops.Pop();
                 }
                 else
                 {
-                    stack.Push(new Node(token));
+                    while (ops.Count > 0 && prio[ops.Peek()] >= prio[ch])
+                    {
+                        Combine(ops, stack);
+                    }
+                    ops.Push(ch);
                 }
             }
 
-            return stack.Pop();
+            while (stack.Count > 1)
+            {
+                Combine(ops, stack);
+            }
+
+            return stack.Peek();
+        }
+
+        private void Combine(Stack<char> ops, Stack<Node> stack)
+        {
+            Node root = new Node(ops.Pop());
+            // right first, then left
+            root.right = stack.Pop();
+            root.left = stack.Pop();
+            stack.Push(root);
         }
     }
-    class Programm
-    {       
-            static void Main()
-            {
-                string expression = "a + b * c";
-                GraphExpression graphExpression = new GraphExpression(expression);
 
-                PrintGraph(graphExpression.Root);
-            }
+    public class Node
+    {
+        public char val;
+        public Node left, right;
 
-            static void PrintGraph(Node node, int depth = 0)
-            {
-                if (node == null) return;
-
-                PrintGraph(node.Right, depth + 1);
-                Console.WriteLine(new string(' ', depth * 4) + node.Value);
-                PrintGraph(node.Left, depth + 1);
-            }
+        public Node(char val)
+        {
+            this.val = val;
+        }
     }
+    public class Programm
+    {
+        static void Main()
+        {
+            Solution s = new Solution();
+            string input = "y*x+x*2";
+            Node result = s.expTree(input);
 
+            Console.WriteLine("Preorder traversal:");
+            PrintPreorder(result);
+            Console.WriteLine();
+
+            Console.WriteLine("Inorder traversal:");
+            PrintInorder(result);
+            Console.WriteLine();
+        }
+        public static void PrintPreorder(Node node)
+        {
+            if (node != null)
+            {
+                Console.Write(node.val + " ");
+                PrintPreorder(node.left);
+                PrintPreorder(node.right);
+            }
+        }
+
+        public static void PrintInorder(Node node)
+        {
+            if (node != null)
+            {
+                PrintInorder(node.left);
+                Console.Write(node.val + " ");
+                PrintInorder(node.right);
+            }
+        }
+
+    }
 }

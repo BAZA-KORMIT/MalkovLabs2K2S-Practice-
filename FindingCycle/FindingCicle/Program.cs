@@ -8,9 +8,10 @@ namespace FCG
         public enum Color { WHITE, GRAY, BLACK }
 
         public static int[,] graph = {
-               { 0, 0, 1},
-               { 1, 0, 0},
-               { 0, 1, 0}
+               { 0, 1, 0, 0},
+               { 0, 0, 0, 0},
+               { 0, 0, 0, 1},
+               { 1, 0, 0, 0}
         };
         public static int n = graph.GetLength(0);
         public static Color[] used = new Color[n];
@@ -45,7 +46,7 @@ namespace FCG
                     if (graph[v, i] != 0)
                     {
                         if (used[i] == Color.WHITE) return DFS(i, used);
-                        if (used[i] == Color.GRAY) { path.Add(i + 1); return true; }
+                        if (used[i] == Color.GRAY) { path.Add(i + 1);return true; }
                     }
                 }
                 else
@@ -59,7 +60,7 @@ namespace FCG
                 }
             }
             used[v] = Color.BLACK;
-            path.RemoveAt(path.Count - 1);
+            //path.RemoveAt(path.Count-1);
             return false;
         }
 
