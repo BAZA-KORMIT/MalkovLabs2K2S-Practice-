@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Crossroads (Prim)")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2995402a6e1d1a858bd5fdef6244aa35226c8d06")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e62eff2750b255a0408776cb2bd03e8cdfdcdbb4")]
 [assembly: System.Reflection.AssemblyProductAttribute("Crossroads (Prim)")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Crossroads (Prim)")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
