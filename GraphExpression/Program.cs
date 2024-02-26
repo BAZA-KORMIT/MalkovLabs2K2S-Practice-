@@ -1,113 +1,157 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq.Expressions;
+using System.Text.RegularExpressions;
 namespace PROG
 {
     public class Solution
     {
-        Dictionary<char, int> prio = new Dictionary<char, int>();
-
-        public Node expTree(string s)
+        public enum OperationType
         {
-            prio.Add('(', 1);
-            prio.Add('+', 2);
-            prio.Add('-', 2);
-            prio.Add('*', 3);
-            prio.Add('/', 3);
+            Binary,
+            Logical,
+            LogicalDouble,
+            Unary
+        }
+        private readonly IDictionary<string, Expression> _operations = new Dictionary<string, Expression>
+    {
+        // Binary
+        {"+", new BinaryExpression(1, (a, b) => a + b, OperationType.Binary)},
+        {"-", new BinaryExpression(1, (a, b) => a - b, OperationType.Binary)},
+        {"*", new BinaryExpression(2, (a, b) => a * b, OperationType.Binary)},
+        {"/", new BinaryExpression(2, (a, b) => a / b, OperationType.Binary)},
+        {"**", new BinaryExpression(3, Math.Pow, OperationType.Binary)},
+        
+        // Unary
+        { "sin", new UnaryExpression(4, Math.Sin, OperationType.Unary) },
+        { "cos", new UnaryExpression(4, Math.Cos, OperationType.Unary) },
+        { "tan", new UnaryExpression(4, Math.Tan, OperationType.Unary) },
+        { "cot", new UnaryExpression(4, (a) => 1 / Math.Tan(a), OperationType.Unary) },
+        { "sinh", new UnaryExpression(4, Math.Sinh, OperationType.Unary) },
+        { "cosh", new UnaryExpression(4, Math.Cosh, OperationType.Unary) },
+        { "tanh", new UnaryExpression(4, Math.Tanh, OperationType.Unary) },
+        { "e", new UnaryExpression(4, Math.Exp, OperationType.Unary) },
+        { "log", new UnaryExpression(4, Math.Log, OperationType.Unary) },
+        
+        // Logical
+        { "<", new LogicalExpression<double>(0, (a, b) => a < b, OperationType.LogicalDouble) },
+        { "<=", new LogicalExpression<double>(0, (a, b) => a <= b, OperationType.LogicalDouble) },
+        { ">", new LogicalExpression<double>(0, (a, b) => a > b, OperationType.LogicalDouble) },
+        { ">=", new LogicalExpression<double>(0, (a, b) => a >= b, OperationType.LogicalDouble) },
+        { "&&", new LogicalExpression<bool>(0, (a, b) => a && b, OperationType.Logical) },
+        { "||", new LogicalExpression<bool>(0, (a, b) => a || b, OperationType.Logical) },
+        { "&", new LogicalExpression<bool>(0,(a, b) => a & b, OperationType.Logical) },
+        { "|", new LogicalExpression<bool>(0, (a, b) => a | b, OperationType.Logical) },
+    };
+        public string ConvertToPostfix(string infixExpression)
+        {
+            var output = new List<string>();
+            var stack = new Stack<string>();
+            infixExpression = infixExpression.Replace('.', ',');
 
-            Stack<char> ops = new Stack<char>();
-            Stack<Node> stack = new Stack<Node>();
-
-            for (int i = 0; i < s.Length; i++)
+            foreach (var token in Regex.Split(infixExpression, @"(\s+|\b)"))
             {
-                char ch = s[i];
-                if (ch == '(')
+                if (string.IsNullOrWhiteSpace(token))
                 {
-                    ops.Push(ch);
+                    continue;
                 }
-                else if (char.IsDigit(ch) || char.IsLetter(ch))
+
+                if (_operations.TryGetValue(token, out var operation))
                 {
-                    stack.Push(new Node(ch));
-                }
-                else if (ch == ')')
-                {
-                    while (ops.Peek() != '(')
+                    while (stack.Count > 0 && _operations.ContainsKey(stack.Peek()) && _operations[stack.Peek()].Priority >= operation.Priority)
                     {
-                        Combine(ops, stack);
+                        output.Add(stack.Pop());
                     }
-                    ops.Pop();
+
+                    stack.Push(token);
+                }
+                else if (token == "(")
+                {
+                    stack.Push(token);
+                }
+                else if (token == ")")
+                {
+                    string top;
+                    while ((top = stack.Pop()) != "(")
+                    {
+                        output.Add(top);
+                    }
                 }
                 else
                 {
-                    while (ops.Count > 0 && prio[ops.Peek()] >= prio[ch])
-                    {
-                        Combine(ops, stack);
-                    }
-                    ops.Push(ch);
+                    output.Add(token);
                 }
             }
 
-            while (stack.Count > 1)
+            while (stack.Count > 0)
             {
-                Combine(ops, stack);
+                output.Add(stack.Pop());
             }
 
-            return stack.Peek();
+            var result = output[0];
+            for (var i = 1; i < output.Count; i++)
+            {
+                result += output[i] == "," ? output[i] :
+                    output[i - 1] == "," ?
+                        i == output.Count ? output[i] + " " :
+                            output[i] :
+                        i == output.Count ? " " + output[i] + " " :
+                        " " + output[i];
+            }
+
+            return result;
+        }
+        public string BuildTree(string infix)
+        {
+            var postfix = ConvertToPostfix(infix);
+            return BuildExpressionTree(postfix).ToString();
         }
 
-        private void Combine(Stack<char> ops, Stack<Node> stack)
+        private ExpressionNode BuildExpressionTree(string postfixExpression)
         {
-            Node root = new Node(ops.Pop());
-            // right first, then left
-            root.right = stack.Pop();
-            root.left = stack.Pop();
-            stack.Push(root);
-        }
-    }
+            var stack = new Stack<ExpressionNode>();
 
-    public class Node
-    {
-        public char val;
-        public Node left, right;
+            foreach (var token in postfixExpression.Split(' '))
+            {
+                if (_operations.ContainsKey(token))
+                {
+                    var operationNode = new ExpressionNode(token);
+                    operationNode.Right = stack.Pop();
+                    if (stack.Count != 0)
+                    {
+                        operationNode.Left = stack.Pop();
+                    }
+                    stack.Push(operationNode);
+                }
+                else
+                {
+                    stack.Push(new ExpressionNode(token));
+                }
+            }
 
-        public Node(char val)
-        {
-            this.val = val;
+            return stack.Pop();
         }
     }
     public class Programm
     {
         static void Main()
         {
-            Solution s = new Solution();
-            string input = "y*x+x*2";
-            Node result = s.expTree(input);
-
-            Console.WriteLine("Preorder traversal:");
-            PrintPreorder(result);
-            Console.WriteLine();
-
-            Console.WriteLine("Inorder traversal:");
-            PrintInorder(result);
-            Console.WriteLine();
-        }
-        public static void PrintPreorder(Node node)
-        {
-            if (node != null)
+            try
             {
-                Console.Write(node.val + " ");
-                PrintPreorder(node.left);
-                PrintPreorder(node.right);
+                Console.WriteLine("Введите выражение");
+                var s = new Solution();
+                var str = Console.ReadLine();
+                var RPN = s.ConvertToPostfix(str);
+                Console.WriteLine("Обратная польская(постфиксная) запись:");
+                Console.WriteLine(RPN);
+                Console.WriteLine("Представление выражения в виде графа:");
+                var graph = s.BuildTree(str);
+                Console.WriteLine(graph);
             }
-        }
-
-        public static void PrintInorder(Node node)
-        {
-            if (node != null)
+            catch(Exception e)
             {
-                PrintInorder(node.left);
-                Console.Write(node.val + " ");
-                PrintInorder(node.right);
+                Console.WriteLine("Ошибка");
             }
         }
 
