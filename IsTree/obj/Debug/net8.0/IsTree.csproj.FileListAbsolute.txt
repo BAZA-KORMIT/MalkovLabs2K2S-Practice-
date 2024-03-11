@@ -1,0 +1,15 @@
+D:\Pract\MalkovLabs2K2S-Practice-\IsTree\bin\Debug\net8.0\IsTree.exe
+D:\Pract\MalkovLabs2K2S-Practice-\IsTree\bin\Debug\net8.0\IsTree.deps.json
+D:\Pract\MalkovLabs2K2S-Practice-\IsTree\bin\Debug\net8.0\IsTree.runtimeconfig.json
+D:\Pract\MalkovLabs2K2S-Practice-\IsTree\bin\Debug\net8.0\IsTree.dll
+D:\Pract\MalkovLabs2K2S-Practice-\IsTree\bin\Debug\net8.0\IsTree.pdb
+D:\Pract\MalkovLabs2K2S-Practice-\IsTree\obj\Debug\net8.0\IsTree.GeneratedMSBuildEditorConfig.editorconfig
+D:\Pract\MalkovLabs2K2S-Practice-\IsTree\obj\Debug\net8.0\IsTree.AssemblyInfoInputs.cache
+D:\Pract\MalkovLabs2K2S-Practice-\IsTree\obj\Debug\net8.0\IsTree.AssemblyInfo.cs
+D:\Pract\MalkovLabs2K2S-Practice-\IsTree\obj\Debug\net8.0\IsTree.csproj.CoreCompileInputs.cache
+D:\Pract\MalkovLabs2K2S-Practice-\IsTree\obj\Debug\net8.0\IsTree.sourcelink.json
+D:\Pract\MalkovLabs2K2S-Practice-\IsTree\obj\Debug\net8.0\IsTree.dll
+D:\Pract\MalkovLabs2K2S-Practice-\IsTree\obj\Debug\net8.0\refint\IsTree.dll
+D:\Pract\MalkovLabs2K2S-Practice-\IsTree\obj\Debug\net8.0\IsTree.pdb
+D:\Pract\MalkovLabs2K2S-Practice-\IsTree\obj\Debug\net8.0\IsTree.genruntimeconfig.cache
+D:\Pract\MalkovLabs2K2S-Practice-\IsTree\obj\Debug\net8.0\ref\IsTree.dll
