@@ -11,7 +11,7 @@ namespace FCG
                { 0, 1, 0, 0},
                { 0, 0, 1, 0},
                { 0, 0, 0, 1},
-               { 1, 0, 0, 0}
+               { 0, 0, 0, 0}
         };
         public static int n = graph.GetLength(0);
         public static Color[] used = new Color[n];
@@ -22,7 +22,7 @@ namespace FCG
         static void Main()
         {
             directed = IsDirected();
-            Console.WriteLine("diricted check: {0}", directed);
+            Console.WriteLine("directed check: {0}", directed);
             for (int i = 0; i < n; i++) // n - размерность матрицы
             {
                 if (DFS(i, used))
@@ -60,7 +60,7 @@ namespace FCG
                 }
             }
             used[v] = Color.BLACK;
-            //path.RemoveAt(path.Count-1);
+            path.RemoveAt(path.Count-1);
             return false;
         }
 
