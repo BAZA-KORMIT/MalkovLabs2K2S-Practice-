@@ -8,18 +8,37 @@ class Graph
    
     Graph(int v)
     {
+        GraphCheck(v);
         V = v;
         adj = new List<int>[v];
         for (int i = 0; i < v; ++i)
             adj[i] = new List<int>();
     }
+
+    void GraphCheck(int v)
+    {
+        if (v < 2 || v > 100)
+        {
+            Console.WriteLine("количество рёбер должно быть от 2 до 100");
+            System.Environment.Exit(0);
+        }
+    }
    
     void addEdge(int v, int w)
     {
+        addEdgeCheck(v, w);
         adj[v].Add(w);
         adj[w].Add(v);
     }
 
+    void addEdgeCheck(int v,int w)
+    {
+        if (v > V - 1 || w > V - 1)
+        {
+            Console.WriteLine("номер ребра не может превышать количество ребёр в графе");
+            System.Environment.Exit(0);
+        }
+    }
     bool isCyclicUtil(int v, bool[] visited,int parent)
     {        
         visited[v] = true;

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "c8as1qZwrBtHLjCZAP2OLYzlVNJHm+gudk3Aafoa7mQDrNda0NSVZ8+zneNsxv0RdDWJLuux8WZfbg/YuEOhkg==",
+  "dgSpecHash": "5vdWNuCox0EirNoqRTezpcyg415bAyBE1QFRLkJ6ceids+JJjlc5yyaPMzP+byd7yubGxU8SXwVM+P2qe5fCuw==",
   "success": true,
-  "projectFilePath": "D:\\Pract\\MalkovLabs2K2S-Practice-\\RecOrNot\\RecOrNot\\RecOrNot.csproj",
+  "projectFilePath": "D:\\Pract\\MalkovLabs2K2S-Practice-\\RecOrNot\\RecOrNot.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ник\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.25\\microsoft.windowsdesktop.app.ref.6.0.25.nupkg.sha512",
     "C:\\Users\\Ник\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.25\\microsoft.netcore.app.ref.6.0.25.nupkg.sha512",

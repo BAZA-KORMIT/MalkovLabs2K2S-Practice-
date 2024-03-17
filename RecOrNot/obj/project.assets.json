@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Pract\\MalkovLabs2K2S-Practice-\\RecOrNot\\RecOrNot\\RecOrNot.csproj",
+      "projectUniqueName": "D:\\Pract\\MalkovLabs2K2S-Practice-\\RecOrNot\\RecOrNot.csproj",
       "projectName": "RecOrNot",
-      "projectPath": "D:\\Pract\\MalkovLabs2K2S-Practice-\\RecOrNot\\RecOrNot\\RecOrNot.csproj",
+      "projectPath": "D:\\Pract\\MalkovLabs2K2S-Practice-\\RecOrNot\\RecOrNot.csproj",
       "packagesPath": "C:\\Users\\Ник\\.nuget\\packages\\",
-      "outputPath": "D:\\Pract\\MalkovLabs2K2S-Practice-\\RecOrNot\\RecOrNot\\obj\\",
+      "outputPath": "D:\\Pract\\MalkovLabs2K2S-Practice-\\RecOrNot\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
