@@ -45,10 +45,15 @@ class Maze
         currentPath.Add($"{row},{col}");
 
         // Рекурсивный вызов для каждого направления
-        DFS(row + 1, col, currentPath);
-        DFS(row - 1, col, currentPath);
-        DFS(row, col + 1, currentPath);
-        DFS(row, col - 1, currentPath);
+        //DFS(row + 1, col, currentPath);
+        //DFS(row - 1, col, currentPath);
+        //DFS(row, col + 1, currentPath);
+        //DFS(row, col - 1, currentPath);
+
+        DFS(row + 1, col, new List<string>(currentPath));
+        DFS(row - 1, col, new List<string>(currentPath));
+        DFS(row, col + 1, new List<string>(currentPath));
+        DFS(row, col - 1, new List<string>(currentPath));
 
         visited[row, col] = false;
         currentPath.RemoveAt(currentPath.Count - 1);
@@ -77,7 +82,7 @@ class Program
     {
         int[,] maze = new int[,] {
             {1, 1, 0, 1},
-            {0, 1, 1, 1},
+            {1, 1, 1, 1},
             {0, 1, 1, 0},
             {0, 1, 1, 1}
         };

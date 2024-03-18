@@ -43,7 +43,7 @@ namespace FCG
             {
                 if (directed)
                 {
-                    if (graph[v, i] != 0)
+                    if (graph[v, i] != 0) // пофикси то что внутри
                     {
                         if (used[i] == Color.WHITE) return DFS(i, used);
                         if (used[i] == Color.GRAY) { path.Add(i + 1);return true; }
