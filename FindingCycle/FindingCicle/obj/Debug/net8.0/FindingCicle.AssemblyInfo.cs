@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FindingCicle")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+686368bb4deb55e31f944b6e237f4de1e4f4a780")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b45546689d99921e26908919190daac5f48f5372")]
 [assembly: System.Reflection.AssemblyProductAttribute("FindingCicle")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FindingCicle")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
