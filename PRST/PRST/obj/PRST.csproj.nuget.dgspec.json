@@ -1,31 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "/Users/vladislavkirillov/Desktop/УНИВЕРСИТЕТ/МАЛЬКОВ/MalkovLabs2K2S-Practice-/GraphExpression/GraphExpression.csproj": {}
+    "/Users/vladislavkirillov/Desktop/УНИВЕРСИТЕТ/МАЛЬКОВ/MalkovLabs2K2S-Practice-/PRST/PRST/PRST.csproj": {}
   },
   "projects": {
-    "/Users/vladislavkirillov/Desktop/УНИВЕРСИТЕТ/МАЛЬКОВ/MalkovLabs2K2S-Practice-/GraphExpression/GraphExpression.csproj": {
+    "/Users/vladislavkirillov/Desktop/УНИВЕРСИТЕТ/МАЛЬКОВ/MalkovLabs2K2S-Practice-/PRST/PRST/PRST.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/vladislavkirillov/Desktop/УНИВЕРСИТЕТ/МАЛЬКОВ/MalkovLabs2K2S-Practice-/GraphExpression/GraphExpression.csproj",
-        "projectName": "GraphExpression",
-        "projectPath": "/Users/vladislavkirillov/Desktop/УНИВЕРСИТЕТ/МАЛЬКОВ/MalkovLabs2K2S-Practice-/GraphExpression/GraphExpression.csproj",
+        "projectUniqueName": "/Users/vladislavkirillov/Desktop/УНИВЕРСИТЕТ/МАЛЬКОВ/MalkovLabs2K2S-Practice-/PRST/PRST/PRST.csproj",
+        "projectName": "PRST",
+        "projectPath": "/Users/vladislavkirillov/Desktop/УНИВЕРСИТЕТ/МАЛЬКОВ/MalkovLabs2K2S-Practice-/PRST/PRST/PRST.csproj",
         "packagesPath": "/Users/vladislavkirillov/.nuget/packages/",
-        "outputPath": "/Users/vladislavkirillov/Desktop/УНИВЕРСИТЕТ/МАЛЬКОВ/MalkovLabs2K2S-Practice-/GraphExpression/obj/",
+        "outputPath": "/Users/vladislavkirillov/Desktop/УНИВЕРСИТЕТ/МАЛЬКОВ/MalkovLabs2K2S-Practice-/PRST/PRST/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/vladislavkirillov/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net8.0"
         ],
         "sources": {
           "/usr/local/share/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -36,8 +36,8 @@
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "imports": [
             "net461",
             "net462",
@@ -54,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.101/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

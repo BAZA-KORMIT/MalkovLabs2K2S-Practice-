@@ -10,12 +10,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("GraphExpression")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("PRST")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+38e86674dfe0bcc42da76aa2cbb9a3afb9d6bad6")]
-[assembly: System.Reflection.AssemblyProductAttribute("GraphExpression")]
-[assembly: System.Reflection.AssemblyTitleAttribute("GraphExpression")]
+[assembly: System.Reflection.AssemblyProductAttribute("PRST")]
+[assembly: System.Reflection.AssemblyTitleAttribute("PRST")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Создано классом WriteCodeFragment MSBuild.

@@ -1,0 +1,15 @@
+/Users/vladislavkirillov/Desktop/УНИВЕРСИТЕТ/МАЛЬКОВ/MalkovLabs2K2S-Practice-/PRST/PRST/bin/Debug/net8.0/PRST
+/Users/vladislavkirillov/Desktop/УНИВЕРСИТЕТ/МАЛЬКОВ/MalkovLabs2K2S-Practice-/PRST/PRST/bin/Debug/net8.0/PRST.deps.json
+/Users/vladislavkirillov/Desktop/УНИВЕРСИТЕТ/МАЛЬКОВ/MalkovLabs2K2S-Practice-/PRST/PRST/bin/Debug/net8.0/PRST.runtimeconfig.json
+/Users/vladislavkirillov/Desktop/УНИВЕРСИТЕТ/МАЛЬКОВ/MalkovLabs2K2S-Practice-/PRST/PRST/bin/Debug/net8.0/PRST.dll
+/Users/vladislavkirillov/Desktop/УНИВЕРСИТЕТ/МАЛЬКОВ/MalkovLabs2K2S-Practice-/PRST/PRST/bin/Debug/net8.0/PRST.pdb
+/Users/vladislavkirillov/Desktop/УНИВЕРСИТЕТ/МАЛЬКОВ/MalkovLabs2K2S-Practice-/PRST/PRST/obj/Debug/net8.0/PRST.GeneratedMSBuildEditorConfig.editorconfig
+/Users/vladislavkirillov/Desktop/УНИВЕРСИТЕТ/МАЛЬКОВ/MalkovLabs2K2S-Practice-/PRST/PRST/obj/Debug/net8.0/PRST.AssemblyInfoInputs.cache
+/Users/vladislavkirillov/Desktop/УНИВЕРСИТЕТ/МАЛЬКОВ/MalkovLabs2K2S-Practice-/PRST/PRST/obj/Debug/net8.0/PRST.AssemblyInfo.cs
+/Users/vladislavkirillov/Desktop/УНИВЕРСИТЕТ/МАЛЬКОВ/MalkovLabs2K2S-Practice-/PRST/PRST/obj/Debug/net8.0/PRST.csproj.CoreCompileInputs.cache
+/Users/vladislavkirillov/Desktop/УНИВЕРСИТЕТ/МАЛЬКОВ/MalkovLabs2K2S-Practice-/PRST/PRST/obj/Debug/net8.0/PRST.sourcelink.json
+/Users/vladislavkirillov/Desktop/УНИВЕРСИТЕТ/МАЛЬКОВ/MalkovLabs2K2S-Practice-/PRST/PRST/obj/Debug/net8.0/PRST.dll
+/Users/vladislavkirillov/Desktop/УНИВЕРСИТЕТ/МАЛЬКОВ/MalkovLabs2K2S-Practice-/PRST/PRST/obj/Debug/net8.0/refint/PRST.dll
+/Users/vladislavkirillov/Desktop/УНИВЕРСИТЕТ/МАЛЬКОВ/MalkovLabs2K2S-Practice-/PRST/PRST/obj/Debug/net8.0/PRST.pdb
+/Users/vladislavkirillov/Desktop/УНИВЕРСИТЕТ/МАЛЬКОВ/MalkovLabs2K2S-Practice-/PRST/PRST/obj/Debug/net8.0/PRST.genruntimeconfig.cache
+/Users/vladislavkirillov/Desktop/УНИВЕРСИТЕТ/МАЛЬКОВ/MalkovLabs2K2S-Practice-/PRST/PRST/obj/Debug/net8.0/ref/PRST.dll
