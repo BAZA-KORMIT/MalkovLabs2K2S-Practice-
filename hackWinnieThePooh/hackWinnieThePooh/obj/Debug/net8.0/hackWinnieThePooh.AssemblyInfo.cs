@@ -10,12 +10,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Crossroads (Prim)")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("hackWinnieThePooh")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+674182a49acef68baf8d595235c99f017d13cac9")]
-[assembly: System.Reflection.AssemblyProductAttribute("Crossroads (Prim)")]
-[assembly: System.Reflection.AssemblyTitleAttribute("Crossroads (Prim)")]
+[assembly: System.Reflection.AssemblyProductAttribute("hackWinnieThePooh")]
+[assembly: System.Reflection.AssemblyTitleAttribute("hackWinnieThePooh")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Создано классом WriteCodeFragment MSBuild.

@@ -1,0 +1,15 @@
+/Users/vladislavkirillov/Desktop/УНИВЕРСИТЕТ/МАЛЬКОВ/MalkovLabs2K2S-Practice-/hackWinnieThePooh/hackWinnieThePooh/bin/Debug/net8.0/hackWinnieThePooh
+/Users/vladislavkirillov/Desktop/УНИВЕРСИТЕТ/МАЛЬКОВ/MalkovLabs2K2S-Practice-/hackWinnieThePooh/hackWinnieThePooh/bin/Debug/net8.0/hackWinnieThePooh.deps.json
+/Users/vladislavkirillov/Desktop/УНИВЕРСИТЕТ/МАЛЬКОВ/MalkovLabs2K2S-Practice-/hackWinnieThePooh/hackWinnieThePooh/bin/Debug/net8.0/hackWinnieThePooh.runtimeconfig.json
+/Users/vladislavkirillov/Desktop/УНИВЕРСИТЕТ/МАЛЬКОВ/MalkovLabs2K2S-Practice-/hackWinnieThePooh/hackWinnieThePooh/bin/Debug/net8.0/hackWinnieThePooh.dll
+/Users/vladislavkirillov/Desktop/УНИВЕРСИТЕТ/МАЛЬКОВ/MalkovLabs2K2S-Practice-/hackWinnieThePooh/hackWinnieThePooh/bin/Debug/net8.0/hackWinnieThePooh.pdb
+/Users/vladislavkirillov/Desktop/УНИВЕРСИТЕТ/МАЛЬКОВ/MalkovLabs2K2S-Practice-/hackWinnieThePooh/hackWinnieThePooh/obj/Debug/net8.0/hackWinnieThePooh.GeneratedMSBuildEditorConfig.editorconfig
+/Users/vladislavkirillov/Desktop/УНИВЕРСИТЕТ/МАЛЬКОВ/MalkovLabs2K2S-Practice-/hackWinnieThePooh/hackWinnieThePooh/obj/Debug/net8.0/hackWinnieThePooh.AssemblyInfoInputs.cache
+/Users/vladislavkirillov/Desktop/УНИВЕРСИТЕТ/МАЛЬКОВ/MalkovLabs2K2S-Practice-/hackWinnieThePooh/hackWinnieThePooh/obj/Debug/net8.0/hackWinnieThePooh.AssemblyInfo.cs
+/Users/vladislavkirillov/Desktop/УНИВЕРСИТЕТ/МАЛЬКОВ/MalkovLabs2K2S-Practice-/hackWinnieThePooh/hackWinnieThePooh/obj/Debug/net8.0/hackWinnieThePooh.csproj.CoreCompileInputs.cache
+/Users/vladislavkirillov/Desktop/УНИВЕРСИТЕТ/МАЛЬКОВ/MalkovLabs2K2S-Practice-/hackWinnieThePooh/hackWinnieThePooh/obj/Debug/net8.0/hackWinnieThePooh.sourcelink.json
+/Users/vladislavkirillov/Desktop/УНИВЕРСИТЕТ/МАЛЬКОВ/MalkovLabs2K2S-Practice-/hackWinnieThePooh/hackWinnieThePooh/obj/Debug/net8.0/hackWinnieThePooh.dll
+/Users/vladislavkirillov/Desktop/УНИВЕРСИТЕТ/МАЛЬКОВ/MalkovLabs2K2S-Practice-/hackWinnieThePooh/hackWinnieThePooh/obj/Debug/net8.0/refint/hackWinnieThePooh.dll
+/Users/vladislavkirillov/Desktop/УНИВЕРСИТЕТ/МАЛЬКОВ/MalkovLabs2K2S-Practice-/hackWinnieThePooh/hackWinnieThePooh/obj/Debug/net8.0/hackWinnieThePooh.pdb
+/Users/vladislavkirillov/Desktop/УНИВЕРСИТЕТ/МАЛЬКОВ/MalkovLabs2K2S-Practice-/hackWinnieThePooh/hackWinnieThePooh/obj/Debug/net8.0/hackWinnieThePooh.genruntimeconfig.cache
+/Users/vladislavkirillov/Desktop/УНИВЕРСИТЕТ/МАЛЬКОВ/MalkovLabs2K2S-Practice-/hackWinnieThePooh/hackWinnieThePooh/obj/Debug/net8.0/ref/hackWinnieThePooh.dll
