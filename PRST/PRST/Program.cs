@@ -5,15 +5,17 @@ namespace PRST;
 
 class Program
 {
+    public static int[] sequence = { 1, 2, 3, 4, 5, 7, 8, 9, 10 };
     static void Main()
     {
-        int[] sequence = { 1, 2, 3, 4, 5, 7, 8, 9, 10 };
+       
+        Console.WriteLine(Build(SortedArrayToPRST(sequence,0,sequence.Length-1)));
     }
 
     // Algorithm for converting to an ideal search tree (eng for git)
-    public TreeNode SortedArrayToPRST(int[] sequence, int start, int end)
+    public static TreeNode SortedArrayToPRST(int[] sequence, int start, int end)
     {
-        if (start < end)
+        if (start > end)
             return null;
 
         int mid = (start + end) / 2;
@@ -24,5 +26,9 @@ class Program
         };
 
         return tree;
+    }
+    public static string Build(TreeNode tree)
+    {
+        return SortedArrayToPRST(sequence,0,sequence.Length-1).ToString();
     }
 }

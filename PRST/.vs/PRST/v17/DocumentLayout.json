@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Pract\\MalkovLabs2K2S-Practice-\\PRST\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{80DDB3E4-6AD9-4CAC-AA05-08DEFE0296C6}|PRST\\PRST.csproj|d:\\pract\\malkovlabs2k2s-practice-\\prst\\prst\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80DDB3E4-6AD9-4CAC-AA05-08DEFE0296C6}|PRST\\PRST.csproj|solutionrelative:prst\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80DDB3E4-6AD9-4CAC-AA05-08DEFE0296C6}|PRST\\PRST.csproj|D:\\Pract\\MalkovLabs2K2S-Practice-\\PRST\\prst\\treenode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80DDB3E4-6AD9-4CAC-AA05-08DEFE0296C6}|PRST\\PRST.csproj|solutionrelative:prst\\treenode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TreeNode.cs",
+              "DocumentMoniker": "D:\\Pract\\MalkovLabs2K2S-Practice-\\PRST\\PRST\\TreeNode.cs",
+              "RelativeDocumentMoniker": "PRST\\TreeNode.cs",
+              "ToolTip": "D:\\Pract\\MalkovLabs2K2S-Practice-\\PRST\\PRST\\TreeNode.cs",
+              "RelativeToolTip": "PRST\\TreeNode.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAowAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T12:47:47.516Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Pract\\MalkovLabs2K2S-Practice-\\PRST\\PRST\\Program.cs",
+              "RelativeDocumentMoniker": "PRST\\Program.cs",
+              "ToolTip": "D:\\Pract\\MalkovLabs2K2S-Practice-\\PRST\\PRST\\Program.cs",
+              "RelativeToolTip": "PRST\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T12:47:00.568Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
