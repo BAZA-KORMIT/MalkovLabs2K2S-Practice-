@@ -8,8 +8,9 @@ class Program
     public static int[] sequence = { 1, 2, 3, 4, 5, 7, 8, 9, 10 };
     static void Main()
     {
-       
+        int height=GetHeight();
         Console.WriteLine(Build(SortedArrayToPRST(sequence,0,sequence.Length-1)));
+        Console.WriteLine($"Высота: {height}");
     }
 
     // Algorithm for converting to an ideal search tree (eng for git)
@@ -31,4 +32,21 @@ class Program
     {
         return SortedArrayToPRST(sequence,0,sequence.Length-1).ToString();
     }
+
+    public static int GetHeight()
+    {
+        return GetHeightHelper(SortedArrayToPRST(sequence, 0, sequence.Length - 1));
+    }
+
+    private static int GetHeightHelper(TreeNode? node)
+    {
+        if (node == null)
+            return 0;
+
+        int leftHeight = GetHeightHelper(node.Left);
+        int rightHeight = GetHeightHelper(node.Right);
+
+        return 1 + Math.Max(leftHeight, rightHeight);
+    }
+
 }
