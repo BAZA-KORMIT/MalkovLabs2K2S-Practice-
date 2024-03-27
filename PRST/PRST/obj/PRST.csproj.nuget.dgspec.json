@@ -1,26 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "/Users/vladislavkirillov/Desktop/УНИВЕРСИТЕТ/МАЛЬКОВ/MalkovLabs2K2S-Practice-/PRST/PRST/PRST.csproj": {}
+    "D:\\Pract\\MalkovLabs2K2S-Practice-\\PRST\\PRST\\PRST.csproj": {}
   },
   "projects": {
-    "/Users/vladislavkirillov/Desktop/УНИВЕРСИТЕТ/МАЛЬКОВ/MalkovLabs2K2S-Practice-/PRST/PRST/PRST.csproj": {
+    "D:\\Pract\\MalkovLabs2K2S-Practice-\\PRST\\PRST\\PRST.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/vladislavkirillov/Desktop/УНИВЕРСИТЕТ/МАЛЬКОВ/MalkovLabs2K2S-Practice-/PRST/PRST/PRST.csproj",
+        "projectUniqueName": "D:\\Pract\\MalkovLabs2K2S-Practice-\\PRST\\PRST\\PRST.csproj",
         "projectName": "PRST",
-        "projectPath": "/Users/vladislavkirillov/Desktop/УНИВЕРСИТЕТ/МАЛЬКОВ/MalkovLabs2K2S-Practice-/PRST/PRST/PRST.csproj",
-        "packagesPath": "/Users/vladislavkirillov/.nuget/packages/",
-        "outputPath": "/Users/vladislavkirillov/Desktop/УНИВЕРСИТЕТ/МАЛЬКОВ/MalkovLabs2K2S-Practice-/PRST/PRST/obj/",
+        "projectPath": "D:\\Pract\\MalkovLabs2K2S-Practice-\\PRST\\PRST\\PRST.csproj",
+        "packagesPath": "C:\\Users\\Ник\\.nuget\\packages\\",
+        "outputPath": "D:\\Pract\\MalkovLabs2K2S-Practice-\\PRST\\PRST\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/vladislavkirillov/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Ник\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "/usr/local/share/dotnet/library-packs": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -33,6 +38,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -54,7 +64,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
