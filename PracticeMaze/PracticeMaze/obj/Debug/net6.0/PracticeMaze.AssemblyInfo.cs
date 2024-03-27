@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PracticeMaze")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+705b0926de4afa04a1364a0807e9bf3d9104eba2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e68e6a6d9472ed8c126783638168741134bc9a8f")]
 [assembly: System.Reflection.AssemblyProductAttribute("PracticeMaze")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PracticeMaze")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
