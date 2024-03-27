@@ -3,66 +3,49 @@ using System.Collections.Generic;
 
 class Maze
 {
-    int[,] maze;
-    int rows, cols;
-    bool[,] visited;
+    private int[,] _maze;
+    private int _rows, _cols;
+    private bool[,] _visited;
 
     public Maze(int[,] maze)
     {
-        this.maze = maze;
-        this.rows = maze.GetLength(0);
-        this.cols = maze.GetLength(1);
-        this.visited = new bool[rows, cols];
+        this._maze = maze;
+        this._rows = maze.GetLength(0);
+        this._cols = maze.GetLength(1);
+        this._visited = new bool[_rows, _cols];
     }
 
-    public bool Solve()
-    {
-        return DFS(0, 0);
-    }
+    public bool Solve() => DFS(0, 0);
 
     private bool DFS(int row, int col)
     {
-        List<string> list= new List<string>();
+        // проверка границ
+        if (row < 0 || row >= _rows || col < 0 || col >= _cols || _maze[row, col] == 0 || _visited[row, col])
+            return false;
 
-        if (row < 0 || row >= rows || col < 0 || col >= cols) 
-            return false;
-        if (maze[row, col] == 0) 
-            return false;
-        if (visited[row, col]) 
-            return false;
-        if (row == rows - 1 && col == cols - 1)
+        //проверка в конце мы или нет
+        if (row == _rows - 1 && col == _cols - 1)
         {
-            Console.WriteLine("{0},{1}", row, col);
+            PrintPath(row, col);
             return true;
         }
 
-        visited[row, col] = true;
+        _visited[row, col] = true;
 
-        if (DFS(row + 1, col))
+        //поиск пути
+        if (DFS(row + 1, col) || DFS(row - 1, col) || DFS(row, col + 1) || DFS(row, col - 1))
         {
-            list.Add($"{row},{col}");
-            Console.WriteLine("{0},{1}", row, col);
+            PrintPath(row, col);
             return true;
         }
-        if (DFS(row - 1, col)) 
-        {
-            list.Add($"{row},{col}");
-            Console.WriteLine("{0},{1}", row, col);
-            return true;
-        }
-        if (DFS(row, col + 1)) 
-        {
-            list.Add($"{row},{col}");
-            Console.WriteLine("{0},{1}", row, col);
-            return true;
-        }
-        if (DFS(row, col - 1))
-        {
-            list.Add($"{row},{col}");
-            Console.WriteLine("{0},{1}", row, col);
-            return true;
-        }
-        return false; 
+
+        _visited[row, col] = false;
+        return false;
+    }
+
+    private static void PrintPath(int row, int col)
+    {
+        Console.Write("{0},{1} <- ", row, col);
     }
 }
     
@@ -84,8 +67,9 @@ class Program
         }
         return true;
     }
-    static void Main(string[] args)
+    static void Main()
     {
+        //0 - стена 1 - дорога
         int[,] maze = new int[,] {
             {1, 1, 0, 1},
             {0, 1, 1, 1},
@@ -94,11 +78,12 @@ class Program
         };
         if (!Check(maze))
             return;
-        Maze m = new Maze(maze);
+
+        Maze m = new(maze);
 
         if (m.Solve())
-            Console.WriteLine("Путь найден!");
+            Console.WriteLine("Начало работы\nПуть найден!");
         else
-            Console.WriteLine("Путь не найден.");
+            Console.WriteLine("Начало работы\nПуть не найден.");
     }
 }
