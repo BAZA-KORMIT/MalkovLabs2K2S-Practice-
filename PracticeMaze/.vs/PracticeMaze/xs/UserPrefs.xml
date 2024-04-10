@@ -1,0 +1,23 @@
+﻿<Properties StartupConfiguration="{259CC074-DD31-4596-9A85-789C82E62AC4}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="PracticeMaze/Program.cs">
+    <Files>
+      <File FileName="PracticeMaze/Program.cs" Line="41" Column="2" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="PracticeMaze" expanded="True">
+            <Node name="PracticeMaze" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.PracticeMaze PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>

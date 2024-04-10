@@ -1,0 +1,15 @@
+/Users/vladislavkirillov/Desktop/УНИВЕРСИТЕТ/МАЛЬКОВ/MalkovLabs2K2S-Practice-/CitiesAndRoads/CitiesAndRoads/bin/Debug/net8.0/CitiesAndRoads
+/Users/vladislavkirillov/Desktop/УНИВЕРСИТЕТ/МАЛЬКОВ/MalkovLabs2K2S-Practice-/CitiesAndRoads/CitiesAndRoads/bin/Debug/net8.0/CitiesAndRoads.deps.json
+/Users/vladislavkirillov/Desktop/УНИВЕРСИТЕТ/МАЛЬКОВ/MalkovLabs2K2S-Practice-/CitiesAndRoads/CitiesAndRoads/bin/Debug/net8.0/CitiesAndRoads.runtimeconfig.json
+/Users/vladislavkirillov/Desktop/УНИВЕРСИТЕТ/МАЛЬКОВ/MalkovLabs2K2S-Practice-/CitiesAndRoads/CitiesAndRoads/bin/Debug/net8.0/CitiesAndRoads.dll
+/Users/vladislavkirillov/Desktop/УНИВЕРСИТЕТ/МАЛЬКОВ/MalkovLabs2K2S-Practice-/CitiesAndRoads/CitiesAndRoads/bin/Debug/net8.0/CitiesAndRoads.pdb
+/Users/vladislavkirillov/Desktop/УНИВЕРСИТЕТ/МАЛЬКОВ/MalkovLabs2K2S-Practice-/CitiesAndRoads/CitiesAndRoads/obj/Debug/net8.0/CitiesAndRoads.GeneratedMSBuildEditorConfig.editorconfig
+/Users/vladislavkirillov/Desktop/УНИВЕРСИТЕТ/МАЛЬКОВ/MalkovLabs2K2S-Practice-/CitiesAndRoads/CitiesAndRoads/obj/Debug/net8.0/CitiesAndRoads.AssemblyInfoInputs.cache
+/Users/vladislavkirillov/Desktop/УНИВЕРСИТЕТ/МАЛЬКОВ/MalkovLabs2K2S-Practice-/CitiesAndRoads/CitiesAndRoads/obj/Debug/net8.0/CitiesAndRoads.AssemblyInfo.cs
+/Users/vladislavkirillov/Desktop/УНИВЕРСИТЕТ/МАЛЬКОВ/MalkovLabs2K2S-Practice-/CitiesAndRoads/CitiesAndRoads/obj/Debug/net8.0/CitiesAndRoads.csproj.CoreCompileInputs.cache
+/Users/vladislavkirillov/Desktop/УНИВЕРСИТЕТ/МАЛЬКОВ/MalkovLabs2K2S-Practice-/CitiesAndRoads/CitiesAndRoads/obj/Debug/net8.0/CitiesAndRoads.sourcelink.json
+/Users/vladislavkirillov/Desktop/УНИВЕРСИТЕТ/МАЛЬКОВ/MalkovLabs2K2S-Practice-/CitiesAndRoads/CitiesAndRoads/obj/Debug/net8.0/CitiesAndRoads.dll
+/Users/vladislavkirillov/Desktop/УНИВЕРСИТЕТ/МАЛЬКОВ/MalkovLabs2K2S-Practice-/CitiesAndRoads/CitiesAndRoads/obj/Debug/net8.0/refint/CitiesAndRoads.dll
+/Users/vladislavkirillov/Desktop/УНИВЕРСИТЕТ/МАЛЬКОВ/MalkovLabs2K2S-Practice-/CitiesAndRoads/CitiesAndRoads/obj/Debug/net8.0/CitiesAndRoads.pdb
+/Users/vladislavkirillov/Desktop/УНИВЕРСИТЕТ/МАЛЬКОВ/MalkovLabs2K2S-Practice-/CitiesAndRoads/CitiesAndRoads/obj/Debug/net8.0/CitiesAndRoads.genruntimeconfig.cache
+/Users/vladislavkirillov/Desktop/УНИВЕРСИТЕТ/МАЛЬКОВ/MalkovLabs2K2S-Practice-/CitiesAndRoads/CitiesAndRoads/obj/Debug/net8.0/ref/CitiesAndRoads.dll
