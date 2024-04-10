@@ -4,44 +4,108 @@ namespace Chto_za_biznes;
 
 class Program
 {
+    private static int N = 3; // Количество вышек
+    private static int M = 4; // Количество заводов
+    private static int[] a = { 3, 6, 7 }; // Производительность вышек
+    private static int[] b = { 2, 5, 1, 8 }; // Производительность заводов
+    private static int[,] c = { { 1, 2, 3, 4 }, { 8, 7, 6, 5 }, { 9, 12, 10, 11 } }; // Стоимость транспортировки
+    private static int[,] _graph;
+    private static int[,] _cost;
+    private static int[] _parent;
+    private static bool[] _visited;
+
     static void Main()
     {
-        int N = 2; // Количество вышек
-        int M = 2; // Количество заводов
-        int[] a = { 10000, 20000 }; // Производительность вышек
-        int[] b = { 15000, 15000 }; // Производительность заводов
-        int[,] c = { { 500, 900 }, { 600, 700 } }; // Стоимость транспортировки
+        _graph = new int[N + M + 2, N + M + 2];
+        _cost = new int[N + M + 2, N + M + 2];
+        _parent = new int[N + M + 2];
+        _visited = new bool[N + M + 2];
 
-        // Создание графа
-        int[,] graph = new int[N + M + 2, N + M + 2];
+        //Метод для инициализации графа
+        InitializeGraph();
+        //Применение алгоритма для вычисления
+        int maxFlow = MaxFlowLowCost(0, N + M + 1);
 
-        // Инициализация графа
+        Console.WriteLine("Общий объем перекачки: " + maxFlow);
+    }
+
+    static void InitializeGraph()
+    {
+        // два цикла for отвечают за связи источников с вышками и заводов с вышками
         for (int i = 0; i < a.Length; i++)
         {
-            graph[0, i + 1] = a[i]; // Связь источника с вышками
+            _graph[0, i + 1] = a[i];
+            _cost[0, i + 1] = 0;
         }
 
         for (int i = 0; i < b.Length; i++)
         {
-            graph[N + 1 + i, N + M + 1] = b[i]; // Связь заводов со стоком
+            _graph[N + 1 + i, N + M + 1] = b[i];
+            _cost[N + 1 + i, N + M + 1] = 0;
         }
 
+        // связь вышек и заводов с учетом цен
         for (int i = 0; i < N; i++)
         {
             for (int j = 0; j < M; j++)
             {
-                graph[i + 1, N + 1 + j] = int.MaxValue; // Максимальная пропускная способность
+                _graph[i + 1, N + 1 + j] = c[i, j];
+                _cost[i + 1, N + 1 + j] = c[i, j]; // Предполагаем, что стоимость равна цене
+            }
+        }
+    }
+
+    // алгоритм эдмонса карпа
+    static int MaxFlowLowCost(int _source, int sink)
+    {
+        int flow = 0;
+        int cost = 0;
+        while (BFS(_source, sink))
+        {
+            int pathFlow = int.MaxValue;
+            int pathCost = 0;
+            for (int v = sink; v!=_source; v = _parent[v])
+            {
+                int u = _parent[v];
+                pathFlow = Math.Min(pathFlow, _graph[u,v]);
+                pathCost += _cost[u, v];
+            }
+
+            for (int v = sink; v!=_source; v = _parent[v])
+            {
+                int u = _parent[v];
+                _graph[u, v] -= pathFlow;
+                _graph[v, u] += pathFlow;
+            }
+            flow += pathFlow;
+            cost += pathFlow * pathCost;
+        }
+        Console.WriteLine("Общая стоимость: " + cost + " русских долларов.");
+        return flow;
+    }
+
+    static bool BFS(int _source, int sink)
+    {
+        Array.Fill(_visited, false);
+        var queue = new Queue<int>();
+        queue.Enqueue(_source);
+        _visited[_source] = true;
+        _parent[_source] = -1;
+
+        while (queue.Count > 0)
+        {
+            int u = queue.Dequeue();
+            for (int v = 0; v < _graph.GetLength(0); v++)
+            {
+                if (!_visited[v] && _graph[u, v] > 0)
+                {
+                    queue.Enqueue(v);
+                    _parent[v] = u;
+                    _visited[v] = true;
+                }
             }
         }
 
-
-    }
-
-    //static bool CanConnect(int i, int j) => a[i] <= b[j];
-    //static int GetPrice(int i, int j) => c[i, j];
-
-    static void MaxFlowLowCost()
-    {
-       
+        return _visited[sink];
     }
 }

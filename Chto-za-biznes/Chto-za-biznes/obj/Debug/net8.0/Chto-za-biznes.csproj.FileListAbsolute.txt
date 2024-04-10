@@ -1,0 +1,15 @@
+/Users/vladislavkirillov/Desktop/УНИВЕРСИТЕТ/МАЛЬКОВ/MalkovLabs2K2S-Practice-/Chto-za-biznes/Chto-za-biznes/bin/Debug/net8.0/Chto-za-biznes
+/Users/vladislavkirillov/Desktop/УНИВЕРСИТЕТ/МАЛЬКОВ/MalkovLabs2K2S-Practice-/Chto-za-biznes/Chto-za-biznes/bin/Debug/net8.0/Chto-za-biznes.deps.json
+/Users/vladislavkirillov/Desktop/УНИВЕРСИТЕТ/МАЛЬКОВ/MalkovLabs2K2S-Practice-/Chto-za-biznes/Chto-za-biznes/bin/Debug/net8.0/Chto-za-biznes.runtimeconfig.json
+/Users/vladislavkirillov/Desktop/УНИВЕРСИТЕТ/МАЛЬКОВ/MalkovLabs2K2S-Practice-/Chto-za-biznes/Chto-za-biznes/bin/Debug/net8.0/Chto-za-biznes.dll
+/Users/vladislavkirillov/Desktop/УНИВЕРСИТЕТ/МАЛЬКОВ/MalkovLabs2K2S-Practice-/Chto-za-biznes/Chto-za-biznes/bin/Debug/net8.0/Chto-za-biznes.pdb
+/Users/vladislavkirillov/Desktop/УНИВЕРСИТЕТ/МАЛЬКОВ/MalkovLabs2K2S-Practice-/Chto-za-biznes/Chto-za-biznes/obj/Debug/net8.0/Chto-za-biznes.GeneratedMSBuildEditorConfig.editorconfig
+/Users/vladislavkirillov/Desktop/УНИВЕРСИТЕТ/МАЛЬКОВ/MalkovLabs2K2S-Practice-/Chto-za-biznes/Chto-za-biznes/obj/Debug/net8.0/Chto-za-biznes.AssemblyInfoInputs.cache
+/Users/vladislavkirillov/Desktop/УНИВЕРСИТЕТ/МАЛЬКОВ/MalkovLabs2K2S-Practice-/Chto-za-biznes/Chto-za-biznes/obj/Debug/net8.0/Chto-za-biznes.AssemblyInfo.cs
+/Users/vladislavkirillov/Desktop/УНИВЕРСИТЕТ/МАЛЬКОВ/MalkovLabs2K2S-Practice-/Chto-za-biznes/Chto-za-biznes/obj/Debug/net8.0/Chto-za-biznes.csproj.CoreCompileInputs.cache
+/Users/vladislavkirillov/Desktop/УНИВЕРСИТЕТ/МАЛЬКОВ/MalkovLabs2K2S-Practice-/Chto-za-biznes/Chto-za-biznes/obj/Debug/net8.0/Chto-za-biznes.sourcelink.json
+/Users/vladislavkirillov/Desktop/УНИВЕРСИТЕТ/МАЛЬКОВ/MalkovLabs2K2S-Practice-/Chto-za-biznes/Chto-za-biznes/obj/Debug/net8.0/Chto-za-biznes.dll
+/Users/vladislavkirillov/Desktop/УНИВЕРСИТЕТ/МАЛЬКОВ/MalkovLabs2K2S-Practice-/Chto-za-biznes/Chto-za-biznes/obj/Debug/net8.0/refint/Chto-za-biznes.dll
+/Users/vladislavkirillov/Desktop/УНИВЕРСИТЕТ/МАЛЬКОВ/MalkovLabs2K2S-Practice-/Chto-za-biznes/Chto-za-biznes/obj/Debug/net8.0/Chto-za-biznes.pdb
+/Users/vladislavkirillov/Desktop/УНИВЕРСИТЕТ/МАЛЬКОВ/MalkovLabs2K2S-Practice-/Chto-za-biznes/Chto-za-biznes/obj/Debug/net8.0/Chto-za-biznes.genruntimeconfig.cache
+/Users/vladislavkirillov/Desktop/УНИВЕРСИТЕТ/МАЛЬКОВ/MalkovLabs2K2S-Practice-/Chto-za-biznes/Chto-za-biznes/obj/Debug/net8.0/ref/Chto-za-biznes.dll
